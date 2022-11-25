@@ -1,0 +1,17 @@
+body {
+  background-color: #232b2b;
+}
+
+.img_div {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+table {
+  color: white;
+}
+
+td::first-letter {
+  text-transform: capitalize;
+}
