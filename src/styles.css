@@ -2,8 +2,13 @@ body {
   background-color: #232b2b;
 }
 
+.stage {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+}
+
 .img_div {
-  background-color: white;
+  background-color: #c7ab75;
   width: 100px;
   height: 100px;
 }
@@ -14,4 +19,19 @@ table {
 
 td::first-letter {
   text-transform: capitalize;
+}
+
+.side {
+  background-color: orange;
+  height: 100%;
+}
+
+.middle {
+  background-color: pink;
+}
+
+.middle > p {
+  color: white;
+  text-align: center;
+  padding: 70px 0;
 }
